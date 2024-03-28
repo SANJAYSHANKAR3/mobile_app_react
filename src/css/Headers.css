@@ -1,43 +1,78 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
-  header {
-    background-color: #333;
-    color: #fff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-  }
-  
-  .right-corner {
-    display: flex;
-  }
-  
-  .login-btn, .register-btn {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    padding: 8px 12px;
-    margin-left: 10px;
-    cursor: pointer;
-  }
-  
-  .login-btn:hover, .register-btn:hover {
-    background-color: #0056b3;
-  }
-  .sort-button {
-    background-color: #007bff;
-    color: white;
-    padding: 8px 16px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-.sort-button:hover {
-    background-color: #0056b3;
+header {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.right-corner {
+  display: flex;
+}
+
+.login-btn, .register-btn, .sort-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.login-btn:hover, .register-btn:hover, .sort-button:hover {
+  background-color: #0056b3;
+}
+
+.sort-button {
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+
+.header-container {
+  display: flex;
+  
+  align-items: center;
+  padding: 20px;
+}
+
+.header-title {
+  margin-left: 20px; /* Add margin if needed */
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+
+.button-container button {
+  margin-left: 10px;
+}
+.btn-added {
+  background-color: goldenrod;
+  color: white; /* You can adjust the text color as needed */
+}
+.products
+{
+  margin-top: 20px; 
+    border-collapse: collapse;
+    width: 360%;
+    margin-left: -100%;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+}
+/* .search{
+  width: 50%;
+  margin-left: -10%;
+} */
+.btn-golden {
+  background-color: #ffc107;
+  color: #000;
 }

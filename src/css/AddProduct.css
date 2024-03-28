@@ -1,0 +1,102 @@
+.container
+   {
+    align-items: center;
+    justify-content: center;
+    display:grid;
+    margin-top: 40px;
+   }
+  .form {
+    width: 80%;
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  p {
+    margin: 10px 0;
+  }
+  
+  input {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    align-items: center;
+    align-content: center;
+  }
+  .displayProducts
+  {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    border-radius: 300px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .heading
+  {
+    text-align: center;
+  }
+
+
+
+
+
+.displayProducts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table {
+    margin-top: 35px; 
+    border-collapse: collapse;
+    width: 80%; 
+}
+
+th, td {
+  
+    padding: 8px;
+    text-align: center; 
+}
+
+thead {
+    background-color: #f1f1f1;
+}
+
+th {
+    background-color: #4CAF50; 
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; 
+}
+
+tr:hover {
+    background-color: #ddd; 
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #dc3545; 
+    color: white;
+    border: none; 
+  border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c82333; 
+}
+
